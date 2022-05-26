@@ -398,7 +398,7 @@ section {
 @media (max-width : 800px) {
     .main{
         background-size: auto;
-        background-position: center;
+        background-position: left;
     }
 
     body{
