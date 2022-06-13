@@ -27,13 +27,14 @@ header {
 .logo{
     text-decoration: none;
     color: var(--color);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 700;
     font-size: 1.8em;
-    transition: 0.7s ease;
+    /* transition: 0.7s ease;
 }
+
 .logo-text:hover{
-    color: #fff;
+    color: #fff; */
 }
 
 .navigation a{
@@ -137,6 +138,7 @@ header nav .menu.is-active + .navigation a{
 .menu.is-active span:nth-child(3) {
     transform: translate(-2px, 2px) rotate(-45deg);
 }
+
 
 
 
@@ -297,12 +299,12 @@ section {
 }
 
 .project-card:hover {
-   transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .project-card:hover .project-image {
     opacity: 0.9;
- }
+}
 
 .project-image img{
     width: 100%
@@ -333,7 +335,7 @@ section {
 .more-details:hover {
     color: #000;
 }
-  
+
 
 
 
