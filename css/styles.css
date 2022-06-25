@@ -9,9 +9,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 header {
     background-color: #000;
